@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script&family=Kaushan+Script&family=Montserrat:wght@400;700&family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: gray;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quizz-container {
+  width: 500px;
+  max-width: 100%;
+  background-color: white;
+
+  border-radius: 10px;
+  box-shadow: 0 0 3px 3px rgb(174, 118, 118);
+  overflow: hidden;
+}
+.quizzHeader {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+ul li {
+  font-size: 1.1rem;
+}
+ul li label {
+  cursor: pointer;
+}
+.btn {
+  background-color: #22a7e9;
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-family: inherit;
+  font-size: 1.3rem;
+}
+.btn:hover {
+  background-color: #35b0ed;
+  cursor: pointer;
+}
